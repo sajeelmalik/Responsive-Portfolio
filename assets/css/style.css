@@ -257,7 +257,7 @@ input[type=submit] {
   nav {
     margin-right: 20px;
   }
-  
+
   footer{
       position: relative;
   }
@@ -265,7 +265,6 @@ input[type=submit] {
   .work {
     float: none;
     margin: 10px;
-    height: 450px;
-    width: 450px;
+    width: 100%;
     }
 }
