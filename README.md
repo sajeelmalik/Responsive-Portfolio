@@ -15,12 +15,12 @@ The page can be run from any browser, preferably on Google Chrome!
 # Deployed Project Link
 <!-- make a link to the deployed site -->
  
-[Responsive-Portfolio](https://sajeelmalik.github.io/Responsive-Portfolio/)
+[Responsive Portfolio](https://sajeelmalik.github.io/Responsive-Portfolio/)
 
 
 # Image Preview of Bootstrap Portfolio
 <!-- take a picture of the image and add it into the readme  -->
-![Responsive Portfolio](https://raw.githubusercontent.com/sajeelmalik/Bootstrap-Portfolio/master/Bootstrap-Portfolio.JPG)
+![Responsive Portfolio](https://raw.githubusercontent.com/sajeelmalik/Responsive-Portfolio/master/Responsiveness-Portfolio.JPG)
 
 ## Technology Used
 
@@ -31,8 +31,29 @@ The page can be run from any browser, preferably on Google Chrome!
 <!-- put snippets of code inside ``` ``` so it will look like code -->
 <!-- if you want to put blockquotes use a > -->
 
-Media queries allow for responsive templates for multiple screen sizes. Some relevant CSS media query implementations are below:
+Media queries allow for responsive templates for multiple screen sizes. Some relevant CSS media query implementations are below, adapted for potential mobile use:
 ```
+@media screen and (max-width:640px) {
+  
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+  
+  footer{
+      position: relative;
+  }
+
+  .work {
+    float: none;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    }
+}
 
 ```
 
