@@ -216,3 +216,56 @@ input[type=submit] {
   background:  #8098cc;
   border: 0 none;
 }
+
+@media screen and (max-width:980px){
+  #logo {
+      width:300px;
+  }
+
+  .work {
+    float: none;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+  #logo {
+      width:250px;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+
+  .work {
+    float: none;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    }
+}
+
+@media screen and (max-width:640px) {
+  
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+  
+  footer{
+      position: relative;
+  }
+
+  .work {
+    float: none;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    }
+}
